@@ -25,12 +25,12 @@ This project implements a real-time face recognition system using Python. The sy
 
 # Usage
 
-1. Run the image capture script to capture images for training:
+1. Run the main script:
     ```sh
-    python capture_images.py
+    python main.py
     ```
 
-## Example Workflow
+# Example Workflow
 
 1. **Capture Images**: Use the `capture_images.py` script to capture images from your webcam and label them with names.
 2. **Train Model**: Run the `train_model.py` script to train the face recognition model using the captured images.
