@@ -1,6 +1,4 @@
 # face-recognition-project
-Certainly! Here’s a description for your GitHub repository:
-
 ---
 
 # Real-Time Face Recognition using Python
