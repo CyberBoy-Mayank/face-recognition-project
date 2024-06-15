@@ -1,23 +1,21 @@
-# face-recognition-project
 ---
 
-# Real-Time Face Recognition using Python
+# face-recognition-project
 
 This project implements a real-time face recognition system using Python. The system captures images, trains a model with the captured faces, and then recognizes and displays names near the recognized faces in a live video feed. It leverages OpenCV for video capture and face detection, and uses a machine learning model for face recognition.
 
-## Features
+# Features
 
-- **Image Capture**: Captures images from a video feed for training purposes.
+- **Image Capture**: Captures images from a in-built webcam for training purposes.
 - **Model Training**: Trains a face recognition model using the captured images.
 - **Real-Time Recognition**: Recognizes faces in a live video feed and displays names near the recognized faces.
-- **User-Friendly Interface**: Provides a simple interface for capturing images and training the model.
 
-## Installation
+# Installation
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/real-time-face-recognition.git
-    cd real-time-face-recognition
+    git clone https://github.com/CyberBoy-Mayank/face-recognition-project.git
+    cd face-recognition-project
     ```
 
 2. Install the required dependencies:
@@ -25,21 +23,11 @@ This project implements a real-time face recognition system using Python. The sy
     pip install -r requirements.txt
     ```
 
-## Usage
+# Usage
 
 1. Run the image capture script to capture images for training:
     ```sh
     python capture_images.py
-    ```
-
-2. Provide the captured images with labels to train the model:
-    ```sh
-    python train_model.py
-    ```
-
-3. Run the face recognition script to start the real-time recognition:
-    ```sh
-    python recognize_faces.py
     ```
 
 ## Example Workflow
@@ -58,9 +46,5 @@ This project implements a real-time face recognition system using Python. The sy
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License.
 
 ---
