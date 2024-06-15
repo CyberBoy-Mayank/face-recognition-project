@@ -36,12 +36,15 @@ This project implements a real-time face recognition system using Python. The sy
 2. **Train Model**: Run the `train_model.py` script to train the face recognition model using the captured images.
 3. **Recognize Faces**: Use the `recognize_faces.py` script to start the webcam feed and recognize faces in real-time, displaying names near the recognized faces.
 
-## Benefits
+# Benefits
 
 - **High Accuracy**: Utilizes a robust face recognition model for accurate identification.
 - **Real-Time Processing**: Efficient algorithms ensure real-time performance for live applications.
 - **Easy to Use**: Simple commands for capturing images, training the model, and recognizing faces.
 - **Customizable**: Easily extendable to include additional features or integrate with other systems.
+
+# Note
+- I'm using **Python Version:** *3.10.2* for this project.
 
 ## Contributing
 
